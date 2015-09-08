@@ -15,6 +15,12 @@
         <project.scm.id>github</project.scm.id>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>release-repository</id>
+            <url>file://C:/Temp/q381723/Development/maven</url>
+        </repository>
+    </distributionManagement>
 
     <scm>
         <connection>scm:git:https://github.com/Buhmann/maven_release_test.git</connection>
