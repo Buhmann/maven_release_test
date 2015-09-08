@@ -15,10 +15,14 @@
     </properties>
 
     <distributionManagement>
-        <repository>
+       <repository>
             <id>release-repository</id>
-            <url>file://C:/Temp/q381723/Development/maven</url>
+            <url>file://C:/Temp/q381723/Development/maven_releases/releases</url>
         </repository>
+        <snapshotRepository>
+            <id>snapshot-repository</id>
+            <url>file://C:/Temp/q381723/Development/maven_releases/snapshots</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <scm>
