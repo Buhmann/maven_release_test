@@ -15,7 +15,7 @@
     </properties>
 
     <distributionManagement>
-       <repository>
+        <repository>
             <id>release-repository</id>
             <url>file://C:/Temp/q381723/Development/maven_releases/releases</url>
         </repository>
@@ -27,8 +27,8 @@
 
     <scm>
         <connection>scm:git:https://github.com/Buhmann/maven_release_test.git</connection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencies>
         <dependency>
@@ -37,6 +37,12 @@
             <version>6.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit-dep</artifactId>
+            <version>4.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>
