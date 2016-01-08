@@ -3,7 +3,7 @@
 
     <groupId>net.bmwgroup.qcockpit</groupId>
     <artifactId>HelloWorld</artifactId>
-    <version>0.1.10-SNAPSHOT</version>
+    <version>0.1.10</version>
     <packaging>war</packaging>
 
     <name>HelloWorld</name>
@@ -27,7 +27,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/limod/maven_release_test.git</connection>
-        <tag>HelloWorld-0.1.7</tag>
+        <tag>HelloWorld-0.1.10</tag>
     </scm>
 
     <dependencies>
