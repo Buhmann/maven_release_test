@@ -17,11 +17,11 @@
     <distributionManagement>
         <repository>
             <id>release-repository</id>
-            <url>file://C:/Temp/q381723/Development/maven_releases/releases</url>
+            <url>file://z:/QRP_00/QRP_00_Software/Qualitaets_Reporting_Cockpit(QRC)/cms/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshot-repository</id>
-            <url>file://C:/Temp/q381723/Development/maven_releases/snapshots</url>
+            <url>file://z:/QRP_00/QRP_00_Software/Qualitaets_Reporting_Cockpit(QRC)/cms/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
